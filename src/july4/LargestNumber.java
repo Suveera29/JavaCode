@@ -57,10 +57,13 @@ public class LargestNumber {
             System.out.println("Do you want to exit? Press y for yes and n for no ");
             input = scanner.next();
         }
+
         while (input == "n");
 
 
         System.out.println("Thank you ");
+
+
 
 
 
