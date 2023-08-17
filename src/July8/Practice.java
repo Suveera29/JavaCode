@@ -11,7 +11,7 @@ public class Practice {
         System.out.println("Division press       4");
 
         Scanner sc = new Scanner(System.in);
-        String option;
+        char option;
         do {
             System.out.println("Enter number x:");
             int x = sc.nextInt();
@@ -19,7 +19,7 @@ public class Practice {
             int y = sc.nextInt();
             System.out.println("enter number which operaton do you want ");
             int input = sc.nextInt();
-
+            System.out.println("Ans is:");
 
             if (input == 1) {
                 System.out.println(x + y);
@@ -33,29 +33,10 @@ public class Practice {
                 System.out.println("wrong output");
             }
             System.out.println("Do you want to continue press y for yes and n for no");
-            option = sc.next();
-            System.out.println("enter number z:");
-            int z = sc.nextInt();
-            System.out.println("enter number which operation do you want");
-            int inp = sc.nextInt();
-            if (inp == 1) {
-                System.out.println(x + y+z);
-            } else if (inp == 2) {
-                System.out.println(x - y-z);
-            } else if (inp == 3) {
-                System.out.println(x * y*z);
-            } else if (inp == 4) {
-                System.out.println(x % y%z);
-            } else {
-                System.out.println("wrong output");
-            }
-            System.out.println("Do you want to continue press y for yes and n for no");
-            option = sc.next();
-
-
+            option = sc.next().charAt(0);
         }
-        while (option == "n");
-            System.out.println("bye");
+        while (option != 'y');
+        System.out.println("bye");
 
     }
 }
