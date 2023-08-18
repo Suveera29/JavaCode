@@ -1,15 +1,15 @@
 package AssignmetAugust12;
 
-public class Cow extends Animal implements ClimbAnimal{
+public class Cow implements ClimbAnimal, Animal {
     @Override
     public void feed() {
 
     }
 
-  /*  @Override
+    @Override
     public void makesound() {
 
-    }*/
+    }
 
     @Override
     public void climb() {

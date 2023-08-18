@@ -1,8 +1,8 @@
 package AssignmetAugust12;
 
-public abstract class Animal {
+public interface Animal {
 
-  public abstract void feed();
-   //void makesound();
+  void feed();
+   void makesound();
 
 }

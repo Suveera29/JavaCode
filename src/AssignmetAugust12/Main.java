@@ -6,12 +6,12 @@ public class Main {
         Lion lion = new Lion();
         lion.climb();
         lion.feed();
-        //lion.makesound();
+        lion.makesound();
 
         Penguin penguin = new Penguin();
         penguin.feed();
         penguin.Swim();
-        //penguin.makesound();
+        penguin.makesound();
 
 
     }

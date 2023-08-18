@@ -1,18 +1,18 @@
 package AssignmetAugust12;
 
-public class Penguin extends Animal implements Aquatic{
+public class Penguin implements Aquatic, Animal {
     @Override
     public void feed() {
         System.out.println("Eating");
 
     }
 
-  /*  @Override
+    @Override
     public void makesound() {
         System.out.println("Sound");
 
 
-    }*/
+    }
 
     @Override
     public void Swim() {
