@@ -1,5 +1,8 @@
 package August15;
 
-public interface MemberInnerClass {
+public interface Furniture {
+    void sit();
+    void stand();
+
 
 }
