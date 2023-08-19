@@ -1,6 +1,6 @@
 package August15;
 
-public class Main {
+public class Annaymous {
     public static void main(String[] args) {
 
         //we can assign child class object to parent ref
