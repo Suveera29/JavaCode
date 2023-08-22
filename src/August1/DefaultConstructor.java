@@ -5,6 +5,8 @@ class DateDemo{
     private int day;//declration if we give value its become initi
     private int month;
     private int year;
+
+
     DateDemo(){
         day = 1;
         month = 8;
