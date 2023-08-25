@@ -1,7 +1,10 @@
 package OOPSAssignment;
 
 public abstract class BankAccount implements TransactionLog {
+    public  String accountHolderName;
+
     public abstract void accountHolderName();
+
     public abstract void accountNumber();
     public abstract void balance();
 

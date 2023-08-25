@@ -14,6 +14,8 @@ public class SavingAccount extends BankAccount {
 
     @Override
     public void accountHolderName() {
+        String name = null;
+        System.out.println((String) null);
 
     }
 
