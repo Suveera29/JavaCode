@@ -2,13 +2,12 @@ package August22;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 
-public class Main {
+public class List {
     public static void main(String[] args) {
 
         //generics -- which restrict data struct to a type
-        List<Integer> list = new ArrayList();  //interface==class
+        java.util.List<Integer> list = new ArrayList();  //interface==class
         //List list = new ArrayList();  //interface==class
       //  List<Integer> list = new LinkedList();  //interface==class
         list.add(10);
